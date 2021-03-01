@@ -1,8 +1,12 @@
 from yahoo_fin.stock_info import *
+import cufflinks as cf
+import pandas as pd
 list = []
+#stocks2 = ['NXPI', 'ADI', 'TSM', 'PYPL', 'SBUX', 'NOW', 'UAL', 'DAL', 'TSLA', 'F', 'GE']
+list_len = []
 total_investment = []
 list_profit_loss = []
-stocks2 = [['AMD', 10, 80], ['MSFT', 1, 240.0]]
+stocks2 = [['AMD', 1, 75.65]]
 for values in range(0, len(stocks2)):
     list_len = list_len + [len(stocks2[values])]
 print('Ticker,  Current_Price,   1y_target,      Day_range,         P/E,      #Stocks,    price_purchased,   total_spent,  Profit/Loss ')

@@ -2,7 +2,6 @@ from yahoo_fin.stock_info import *
 import cufflinks as cf
 import pandas as pd
 list = []
-#stocks2 = ['NXPI', 'ADI', 'TSM', 'PYPL', 'SBUX', 'NOW', 'UAL', 'DAL', 'TSLA', 'F', 'GE']
 list_len = []
 total_investment = []
 list_profit_loss = []
